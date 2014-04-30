@@ -28,18 +28,18 @@ a:active {color:#F9E4C8;}  /* selected link */
            		<td  background=''><a href='../ws_xml/index.php'>Home</a></td>
          	</tr>
          	<tr>
-           		<td background=''><a href='?bab=1'>Dashboard Baris-xml</a></td>
+           		<td background=''><a href='?bab=1'>Dashboard Baris_xml</a></td>
          	</tr>         	
          	<tr>
-           		<td background=''><a href='?bab=2'>Dashboard Baris-db</a></td>
+           		<td background=''><a href='?bab=2'>Dashboard Baris_db</a></td>
         		</tr>
         	   <tr>
-           		<td background=''><a href='?bab=3'>Dashboard Batang-xml</a></td>
+           		<td background=''><a href='?bab=3'>Dashboard Batang_xml</a></td>
          	</tr>
          	<tr>
-           		<td background=''><a href='?bab=4'>Dashboard Batang-db</a></td>
+           		<td background=''><a href='?bab=4'>Dashboard Batang_db</a></td>
            	<tr>
-           		<td background=''><a href='?bab=5'>Dashboard Lingkaran-xml</a></td>
+           		<td background=''><a href='?bab=5'>Dashboard Lingkaran_xml</a></td>
          	</tr>
          	<tr>
            		<td><a href='?bab=6'>Dashboard lingkaran_db</a></td>
