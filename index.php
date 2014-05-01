@@ -1,5 +1,5 @@
 <html>
-<head><title>membuat layout dengan tabel</title>
+<head><title>membuat dan menampilkan layout dengan tabel</title>
 <style>
 body
 {
