@@ -1,5 +1,9 @@
 <html>
+<<<<<<< HEAD
 <head><title>TugasBesar_1_awdai</title>
+=======
+<head><title>TUGAS BESAR WEB SERVICE A.W.D.A.I.</title>
+>>>>>>> b1e373d18e34d971de89bb4c9e6c5b9a4344cc0c
 <style>
 body
 {
@@ -14,6 +18,20 @@ a:visited {color:#612915;} /* visited link */
 a:hover {color:#612915;}   /* mouse over link */
 a:active {color:#F9E4C8;}  /* selected link */
 </style>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="jquery-ui.css" />
+    <script src="jquery-1.8.3.js"></script>
+    <script src="jquery-ui.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+    $(function() {
+        $( "#menu" ).menu();
+    });
+    </script>
+    <style>
+    .ui-menu { width: 150px; }
+    </style>
 </head>
 <body>
 <table align='center' width='900' border='0'>
@@ -25,28 +43,40 @@ a:active {color:#F9E4C8;}  /* selected link */
        	<h3>Menu</h3>
        <table>
             <tr>
-           		<td  background=''><a href='../ws_xml/index.php'>Home</a></td>
-         	</tr>
-         	<tr>
-           		<td background=''><a href='?bab=1'>Dashboard Baris_xml</a></td>
-         	</tr>         	
-         	<tr>
-           		<td background=''><a href='?bab=2'>Dashboard Baris_db</a></td>
-        		</tr>
-        	   <tr>
-           		<td background=''><a href='?bab=3'>Dashboard Batang_xml</a></td>
-         	</tr>
-         	<tr>
-           		<td background=''><a href='?bab=4'>Dashboard Batang_db</a></td>
-           	<tr>
-           		<td background=''><a href='?bab=5'>Dashboard Lingkaran_xml</a></td>
-         	</tr>
-         	<tr>
-           		<td><a href='?bab=6'>Dashboard lingkaran_db</a></td>
-        		</tr>
-        		<tr>
-           		<td><a href='?bab=7'>Counter Waktu</a></td>
-        		</tr>
+				<td>
+				<ul id="menu">
+					<li class="ui-state-disabled"><a href="#">Menu</a></li>
+					<li><a href="../ws_xml/index.php">Home</a></li>
+					<li>
+						<a href="#">Akademik</a>
+							<ul>
+								<li><a href="?bab=1">UNSIL</a></li>
+								<li><a href="?bab=2">Fatek UNSIL</a></li>
+								<li><a href="?bab=3">Informatika UNSIL</a></li>
+							</ul>
+					</li>
+					<li>
+						<a href="#">Berita</a>
+					<ul>
+					<li>
+						<a href="?bab=6">Sport</a>
+					</li>
+					<li>
+						<a href="?bab=7">Mancanegara</a>
+					</ul>
+					</li>
+					<li><a href="#">Contact</a>
+						<ul>
+							<li><a href="https://www.facebook.com/zNDREz">Andre</a></li>
+							<li><a href="https://www.facebook.com/wahzuzumy">Wahyu</a></li>
+							<li><a href="https://www.facebook.com/dezuli">Dede</a></li>
+							<li><a href="https://www.facebook.com/Dithya.Prisdiansyah">Aditya</a></li>
+							<li><a href="https://www.facebook.com/profile.php?id=100000121856039&fref=grp_mmbr_list">Iis</a></li>
+						</ul>
+					</li>
+				</ul>
+				</td>
+			</tr>
         	</tr>
        </table>
     </td>
@@ -55,28 +85,45 @@ a:active {color:#F9E4C8;}  /* selected link */
 			 $bab=isset($_GET['bab'])?($_GET['bab']):'';
 			 switch ($bab){
 			 case 1 :
-			 		include 'baris_xml.html';
+			 		include 'unsil.php';
 					break;
 			 case 2 :
-			  		include 'baris_db.php';
+			  		include 'fatek.php';
 					break;
 			 case 3 :
-			  		include 'batang_xml.html';
+			  		include 'informatika.php';
 					break;
 			 case 4 :
 			  		include 'batang_db.php';
 					break;
 			 case 5 :
-			  		include 'lingkaran_xml.html';
-					break;
-				
+			  		include '#';
+					break;				
 			 case 6 :
-			  		include 'lingkaran_db.php';
+			  		include 'sport.php';
 					break;
 			 case 7 :
-			  		include 'counter.php';
+			  		include 'mancanegara.php';
+					break;			
+			 case 8 :
+			  		include '#';
 					break;
-
+			 case 9 :
+			  		include 'andre.php';
+					break;
+			 case 10 :
+			  		include 'wahyu.php';
+					break;
+			 case 11 :
+			  		include 'dede.php';
+					break;					
+			 case 12 :
+			  		include 'aditya.php';
+					break;			
+			 case 13 :
+			  		include 'iis.php';
+					break;
+					
 			 }
 			 if (!$bab){
 			 include 'home.php';
