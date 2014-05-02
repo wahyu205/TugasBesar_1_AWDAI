@@ -1,16 +1,13 @@
 TugasBesar_1_awdai
 ==================
 
-117006202 (zndrez) 117006205 (wahyu205) 117006206 (dezuli) 117006215 (adityabayu) 117006219 (iisuswatun)
+Tugas Besar ini untuk memenuhi tugas Layanan Web
+Dosen Pembimbing : Alam Rahmatullah, S.T.
 
-Master is me
-Wahyu Kartika Hadi
-
-Contributed =
-Andre Rizkiana Wandira
-Dede Zuliana
-Aditya Bayu Pradana
-Iis Uswatun Hasanah
-
-
-.
+Ketua : 
+Wahyu Kartika Hadi (117006205/wahyu205)
+Anggota Kelompok :
+1. Andre Rizkiana Wandira (117006205/zndrez)
+2. Dede Zuliana (117006206/dezuli)
+3. Aditya Bayu Pradana (117006215/adityabayu)
+4. Iis Uswatun Hasanah (117006219/uswatun123)
