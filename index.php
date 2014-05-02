@@ -1,5 +1,5 @@
 <html>
-<head><title>TUBES WS AWDAI</title>
+<head><title>TUGAS BESAR WEB SERVICE A.W.D.A.I.</title>
 <style>
 body
 {
@@ -84,7 +84,7 @@ a:active {color:#F9E4C8;}  /* selected link */
 			 		include 'unsil.php';
 					break;
 			 case 2 :
-			  		include 'ft.php';
+			  		include 'fatek.php';
 					break;
 			 case 3 :
 			  		include 'informatika.php';
