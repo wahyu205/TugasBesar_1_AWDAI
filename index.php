@@ -7,7 +7,7 @@
 <style>
 body
 {
-background-image:url('background.jpg');
+background-image:url('');
 background-repeat:no-repeat;
 margin-right:80px;
 }
@@ -53,6 +53,7 @@ a:active {color:#F9E4C8;}  /* selected link */
 								<li><a href="?bab=1">UNSIL</a></li>
 								<li><a href="?bab=2">Fatek UNSIL</a></li>
 								<li><a href="?bab=3">Informatika UNSIL</a></li>
+								<li><a href="?bab=4">Ilmu Komputer</a></li>
 							</ul>
 					</li>
 					<li>
@@ -94,7 +95,7 @@ a:active {color:#F9E4C8;}  /* selected link */
 			  		include 'informatika.php';
 					break;
 			 case 4 :
-			  		include 'batang_db.php';
+			  		include 'ilmukomputer.php';
 					break;
 			 case 5 :
 			  		include '#';
