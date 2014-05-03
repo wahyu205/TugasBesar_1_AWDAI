@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>UNSIL</title>
+<title>Universitas Siliwangi</title>
 <style>
 p.padding
 {
@@ -14,7 +14,7 @@ color:#612915;
 </head>
 <body>
 <p class="padding">
-<h1>RSS FEED UNSIL</h1>
+<h1>RSS FEED UNIVERSITAS SILIWANGI</h1>
 <?php
 $html = "";
 $url = "http://unsil.ac.id/?feed=rss2";
