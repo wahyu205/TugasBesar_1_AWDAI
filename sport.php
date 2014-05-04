@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Simak UNSIL</title>
+<title>Berita Olahraga</title>
 <style>
 p.padding
 {
