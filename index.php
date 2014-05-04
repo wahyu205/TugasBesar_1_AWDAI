@@ -105,24 +105,6 @@ a:active {color:#F9E4C8;}  /* selected link */
 					break;
 			 case 7 :
 			  		include 'mancanegara.php';
-					break;			
-			 case 8 :
-			  		include '#';
-					break;
-			 case 9 :
-			  		include 'andre.php';
-					break;
-			 case 10 :
-			  		include 'wahyu.php';
-					break;
-			 case 11 :
-			  		include 'dede.php';
-					break;					
-			 case 12 :
-			  		include 'aditya.php';
-					break;			
-			 case 13 :
-			  		include 'iis.php';
 					break;
 					
 			 }
