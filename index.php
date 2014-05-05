@@ -1,9 +1,5 @@
 <html>
-<<<<<<< HEAD
 <head><title>TugasBesar_1_awdai</title>
-=======
-<head><title>TUGAS BESAR WEB SERVICE A.W.D.A.I.</title>
->>>>>>> b1e373d18e34d971de89bb4c9e6c5b9a4344cc0c
 <style>
 body
 {
